@@ -1,0 +1,81 @@
+body{
+	background-color: #6930c3;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#content{
+	text-align: center;
+}
+
+#page-title{
+	font-family: 'Pacifico', cursive;
+}
+
+#task-list-col{
+	background-color: #252525;
+	height: 450px;
+	width: 500px;
+	color: #fff;
+	overflow-y: scroll;
+}
+
+#title-input-field{
+	width: 300px;
+	display: inline-block;
+}
+
+.button-task{
+	width: 350px;
+	border-style: solid;
+	border-color: #6930c3;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.button-task-details{
+	border-style: solid;
+	border-color: #6930c3;
+	width: 40px;
+	height: 38px;
+	border-radius: 0px;
+}
+
+.button-delete-task{
+	border-style: solid;
+	border-color: #6930c3;
+	width: 40px;
+	height: 38px;
+	border-radius: 0px;
+}
+
+.details-label{
+	color: #80ffdb;
+}
+
+.task-complete{
+	text-decoration: line-through;
+	text-decoration-color: #fff;
+	text-decoration-style: solid;
+	text-decoration-thickness: 2px;
+}
+
+.far {
+	color: #80ffdb;
+}
+
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 2em;
+}
+::-webkit-scrollbar-button {
+    background: #ccc;
+}
+::-webkit-scrollbar-track-piece {
+    background: #888;
+}
+::-webkit-scrollbar-thumb {
+    background: #eee;
+}​

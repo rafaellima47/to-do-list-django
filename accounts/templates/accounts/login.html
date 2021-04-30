@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if error %}
+<div class="alert alert-danger" role="alert">
+  {{error}}
+</div>
+{% endif %}
+
+<div class="row mt-5" id="task-list-row">
+	<div class="col-lg-4 col-md-8 col-sm-10 mx-auto border border-dark" id="task-list-col">
+		<h2>Login</h2>
+
+		<form class="p-4 mt-4" method="POST" action="{% url 'login' %}">
+			{% csrf_token %}
+
+			Email:<br>
+			<input class="form-control" type="email" name="email" required><br>
+	
+			Password:<br>
+			<input class="form-control" type="password" name="password" required><br><br>
+
+			<input class="btn btn-outline-light btn-lg" type="submit" value="Login">
+		</form>
+	</div>
+</div>
+
+<br>
+<a class="switch-form" href="{% url 'signup' %}">Don't have an account yet?</a>
+
+{% endblock %}
