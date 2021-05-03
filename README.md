@@ -7,7 +7,7 @@ You can access the app at https://to-dolistdjango.herokuapp.com/
 First clone the repository from Github and switch to the new directory:
 
     $ git clone git@github.com:rafaellima47/to-do-list-django.git
-    $ cd {{ project_name }}
+    $ cd to-do-list-django
     
 Activate the virtualenv for your project.
     
