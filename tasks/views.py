@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 
 from .models import TaskModel
 
+
 @login_required
 def home(request):
 	if request.method == "POST":
